@@ -1,14 +1,16 @@
+@import "partials/variables" 
+
 .secciones {
     font-size: 21px;
 } 
 .Titulo1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    background-color: #E5E5E5;
+    background-color: $fondo-principal;
     color: #083D77;
 }
 .cuerpo {
-    background-color: #E5E5E5;
+    background-color: $fondo-principal;
 }
 .header_logo{
     padding: 0;
@@ -23,5 +25,5 @@
 }
 .carrusel {
     border-style: none;
-    background-color: #ffffff;
+    background-color: $fondo-secundario;
 }
